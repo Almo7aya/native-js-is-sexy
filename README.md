@@ -10,6 +10,14 @@
 - We focus on simple and efficient equivalents and neglect intricate or obscure equivalents.
 
 ## Selectors
+### basic
+```javascript
+// jquery version
+$('targetId')
+
+// javascript version
+document.querySelector('#targetId')
+```
 
 ## Attributes
 
