@@ -14,10 +14,18 @@
 #### #id
 ```javascript
 // jquery version
-$('targetId')
+$('#id')
 
 // javascript version
-document.querySelector('#targetId')
+document.querySelector('#id')
+```
+#### .class
+```js
+// jquery version
+$('.classname')
+
+// javascript version
+document.querySelectorAll('.classname')
 ```
 
 ## Attributes
