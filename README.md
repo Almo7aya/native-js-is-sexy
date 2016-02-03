@@ -11,6 +11,7 @@
 
 ## Selectors
 ### basic
+#### #id
 ```javascript
 // jquery version
 $('targetId')
