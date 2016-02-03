@@ -9,20 +9,19 @@
 - We emphasize the widespread use of ES 6 & 7 syntax.
 - We focus on simple and efficient equivalents and neglect intricate or obscure equivalents.
 
-## Selector
+## Selectors
 
-## Attribute
+## Attributes
 
 ## Manipulation
 
-## Loop
+## Traversing
 
-## Event
+## Events
 
-## Effect
+## Effects
 
 ## Ajax
 
 ## Core
-
 
