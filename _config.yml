@@ -25,6 +25,7 @@ twitter_username: dabeng
 github_username:  dabeng
 
 # Build settings
+highlighter: none
 markdown: kramdown
 plugins:
   - jekyll-feed
