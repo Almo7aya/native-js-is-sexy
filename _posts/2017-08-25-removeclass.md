@@ -1,17 +1,17 @@
 ---
 layout: post
-title:  "Add a class to a element"
-date:   2017-08-23 11:06:28 +0800
+title:  "Remove a class of a element"
+date:   2017-08-25
 categories: DOM manipulation
 ---
-Add a class to a element.
+Remove a class of a element.
 
 ```javascript
-function addClass (el, c) {
+function removeClass (el, c) {
   if (el.classList) {
-    el.classList.add(c);
+    el.classList.remove(c);
   } else {
-    el.className += ' ' + c;
+    el.className = el.className.replace(c,'').replace(/^\s+|\s+$/g,'');
   }
 }
 ```
